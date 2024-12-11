@@ -1,0 +1,3 @@
+https://javascript.info/async-iterators-generators#summary
+
+https://jakearchibald.com/2017/async-iterators-and-generators

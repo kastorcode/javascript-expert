@@ -1,0 +1,19 @@
+{
+  "name": "02-extracting-text-from-pdf-and-fluent-api-pattern",
+  "version": "1.0.0",
+  "author": "<kastor.code/> Matheus Ramalho de Oliveira",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "npx mocha --parallel test/**/*.test.js",
+    "test:cov": "npx nyc mocha --parallel test/**/*.test.js"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1",
+    "safe-regex": "^2.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0"
+  }
+}

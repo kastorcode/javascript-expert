@@ -1,0 +1,11 @@
+regex101.com
+
+^\d{3}.\d{3}.\d{3}-\d{2}$
+123.123.123-14
+321.321.321-20
+200.300.500-19
+
+replace ^(\w+),\s(\w+)$ with {firstName:"$2",lastName:"$1"}
+Ramalho, Matheus
+Uzumaki, Naruto
+Uchiha, Sasuke
