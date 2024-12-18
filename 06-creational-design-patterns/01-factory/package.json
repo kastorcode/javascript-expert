@@ -1,0 +1,11 @@
+{
+  "name": "01-factory",
+  "author": "<kastor.code/> Matheus Ramalho de Oliveira",
+  "scripts": {
+    "start": "node src",
+    "test": "node test/userFactory.test.js"
+  },
+  "devDependencies": {
+    "rewiremock": "^3.14.5"
+  }
+}
