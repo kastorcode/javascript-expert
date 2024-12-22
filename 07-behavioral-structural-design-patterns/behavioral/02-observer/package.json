@@ -1,0 +1,13 @@
+{
+  "name": "02-observer",
+  "author": "<kastor.code/> Matheus Ramalho de Oliveira",
+  "type": "module",
+  "scripts": {
+    "start": "node src",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --watch --config jest.config.js",
+    "test:cov": "NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.js --coverage"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
