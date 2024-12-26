@@ -1,0 +1,11 @@
+{
+  "name": "myapp",
+  "author": "<kastor.code/> Matheus Ramalho de Oliveira",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-specifier-resolution=node index.js"
+  },
+  "dependencies": {
+    "@kastorcode/fluentsql-jest-tdd-yt": "^2.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+npm init -y
+npm init -w string-util -y --scope @kastorcode
+npm i -D nodemon -w string-util
+touch string-util/index.js
+touch string-util/index.test.js
+npm i -D c8 --workspaces
+npm test -w string-util
+npm i @kastorcode/string-util -w date-util
+npm run test:dev -w @kastorcode/date-util
+npm run test:cov -w @kastorcode/date-util
+npm run test:cov -w @kastorcode/string-util
+npm test --workspaces

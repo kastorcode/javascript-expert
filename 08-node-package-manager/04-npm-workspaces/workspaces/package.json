@@ -1,0 +1,8 @@
+{
+  "name": "workspaces",
+  "author": "<kastor.code/> Matheus Ramalho de Oliveira",
+  "workspaces": [
+    "string-util",
+    "date-util"
+  ]
+}

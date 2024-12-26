@@ -1,0 +1,11 @@
+{
+  "name": "app",
+  "author": "<kastor.code/> Matheus Ramalho de Oliveira",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@kastorcode/date-util": "file:../workspaces/date-util"
+  }
+}

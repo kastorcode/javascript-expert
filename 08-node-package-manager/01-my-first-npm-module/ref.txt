@@ -1,0 +1,13 @@
+npm config set init-author-name "<kastor.code/> Matheus Ramalho de Oliveira"
+npm login
+npm publish --access=public
+npm version patch
+npm outdated
+npm update
+npm version minor
+npm version major
+npm i @kastorcode/fluentsql-jest-tdd-yt
+
+https://docs.npmjs.com/about-semantic-versioning
+
+https://docs.npmjs.com/updating-packages-downloaded-from-the-registry
