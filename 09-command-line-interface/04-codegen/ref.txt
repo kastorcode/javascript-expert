@@ -1,0 +1,8 @@
+// após colocar o bin no package.json
+npm link
+
+// para desvincular
+npm unlink -g @kastorcode/04-codegen
+
+// exemplo de linha de comando
+codegen skeleton -c ninja -c samurai -c viking

@@ -1,0 +1,7 @@
+{
+  "name": "yargs",
+  "author": "<kastor.code/> Matheus Ramalho de Oliveira",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
