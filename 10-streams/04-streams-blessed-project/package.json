@@ -1,0 +1,19 @@
+{
+  "name": "@erickwendel/projeto",
+  "author": "erickwendel",
+  "version": "1.0.0",
+  "license": "ISC",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "time node --max-old-space-size=8192 src/index.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.10.0",
+    "split2": "^3.2.2",
+    "stream-concat": "^1.0.0"
+  }
+}

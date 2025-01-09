@@ -1,0 +1,14 @@
+{
+  "name": "@kastorcode/03-async-iterator-as-stream",
+  "author": "<kastor.code/> Matheus Ramalho de Oliveira",
+  "type": "module",
+  "scripts": {
+    "start:server": "mkdir -p logs && node webapi.js",
+    "api1": "curl localhost:3000 | tee logs/api1.log",
+    "api2": "curl localhost:4000 | tee logs/api2.log",
+    "example1": "node examples/01-concat-streams-async-iterators.js | tee logs/01-concat-streams-async-iterators.log"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
