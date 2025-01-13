@@ -1,0 +1,5 @@
+curl localhost:3000 -i -X POST -d "{}"
+
+https://sematext.com/blog/node-js-error-handling
+
+https://nodejs.org/api/process.html#process_exit_codes

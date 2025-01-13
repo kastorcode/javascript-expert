@@ -1,0 +1,9 @@
+{
+  "name": "03-custom-error-types",
+  "author": "<kastor.code/> Matheus Ramalho de Oliveira",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "request": "./request.sh"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "02-graceful-shutdown",
+  "author": "<kastor.code/> Matheus Ramalho de Oliveira",
+  "type": "module",
+  "scripts": {
+    "install:mongodb": "docker run --name mongodb --publish 27017:27017 --detach mongo",
+    "start:mongodb": "docker start $(docker ps -a -q -f name=mongodb)",
+    "shell:mongodb": "docker exec -it mongodb mongosh",
+    "start": "node index.js",
+    "request": "curl localhost:3000 -X POST -d '{\"name\":\"Spiderman\",\"age\":\"20\"}' | jq"
+  },
+  "dependencies": {
+    "mongodb": "^6.12.0"
+  }
+}
