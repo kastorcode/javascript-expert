@@ -1,0 +1,36 @@
+https://erickwendel.com/talk/detail/5dc569fe80ce1becfae37503
+
+https://nodesource.com
+
+https://newrelic.com
+
+https://npmjs.com/package/autocannon
+
+https://npmjs.com/package/0x
+
+https://clinicjs.org
+
+https://github.com/clinicjs/node-clinic-bubbleprof-examples.git
+
+https://npmjs.com/package/benchmark
+
+https://github.com/mcollina/climem
+
+https://github.com/nearform/memleak-exercise
+
+https://bhattaraib58.medium.com/make-nodejs-handle-5x-request-with-99-9-uptime-adding-10-lines-of-code-e264006d35cf
+
+https://json-generator.com
+{
+  at: '{{date(new Date()).toISOString()}}',
+    products: [
+      '{{repeat(100, 100)}}',
+      {
+        description: '{{lorem(4, "words")}}',
+        name: '{{lorem(1, "words")}}',
+        price: '{{floating(100, 2000, 2, "000.00")}}',
+        tmpProperty: 'undefined',
+        activePromoId: '{{random(integer(0, 100), null)}}'
+      }
+    ]
+}

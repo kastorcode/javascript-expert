@@ -1,0 +1,14 @@
+{
+  "name": "03-cluster-nodejs",
+  "author": "<kastor.code/> Matheus Ramalho de Oliveira",
+  "type": "module",
+  "scripts": {
+    "server": "node src/server.js",
+    "start": "node src",
+    "request": "curl localhost:3000",
+    "bench": "sh bench.sh"
+  },
+  "devDependencies": {
+    "autocannon": "^8.0.0"
+  }
+}

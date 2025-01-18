@@ -1,0 +1,12 @@
+{
+  "name": "01-benchmarking",
+  "author": "<kastor.code/> Matheus Ramalho de Oliveira",
+  "type": "module",
+  "scripts": {
+    "start": "node src"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "uuid": "^11.0.5"
+  }
+}
