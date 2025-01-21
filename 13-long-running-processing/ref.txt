@@ -1,0 +1,13 @@
+https://kaggle.com/datasets/maca11/all-pokemon-dataset
+
+https://afteracademy.com/blog/what-is-a-process-in-operating-system-and-what-are-the-different-states-of-a-process
+
+https://betterprogramming.pub/learn-node-js-under-the-hood-37966a20e127
+
+https://guru99.com/difference-between-process-and-thread.html
+
+https://stackoverflow.com/questions/10300251/what-does-the-concept-of-worker-mean-in-programming
+
+https://nodejs.org/en/docs/guides/dont-block-the-event-loop
+
+https://github.com/piscinajs/piscina

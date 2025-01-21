@@ -1,0 +1,16 @@
+{
+  "name": "01-image-combiner",
+  "author": "<kastor.code/> Matheus Ramalho de Oliveira",
+  "type": "module",
+  "scripts": {
+    "start": "node src",
+    "request": "./request.sh"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "sharp": "^0.29.3"
+  },
+  "devDependencies": {
+    "autocannon": "^8.0.0"
+  }
+}

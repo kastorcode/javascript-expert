@@ -1,0 +1,8 @@
+{
+  "name": "01-spawn-process",
+  "author": "<kastor.code/> Matheus Ramalho de Oliveira",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
